@@ -19,7 +19,7 @@ private:
 
     Pair checkBalance(TreeNode* root) {
         Pair p;
-        if (root == nullptr) {
+        if (root == NULL) {
             p.height = 0;
             p.balanced = true;
             return p;
